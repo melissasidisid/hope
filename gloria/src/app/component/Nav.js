@@ -18,7 +18,7 @@ function Nav() {
         <li className="nav-item">
           <Link
             className="nav-link text-light"
-            href="/Diplome"
+            href="/users"
             style={{ fontWeight: "bold" }}
           >
             Diplomat
@@ -28,7 +28,7 @@ function Nav() {
           <Link
             class="nav-link text-white"
             style={{ fontWeight: "bold" }}
-            href="/Products"
+            href="/users/product"
           >
             Products
           </Link>

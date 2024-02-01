@@ -46,7 +46,7 @@ function Bnav() {
               <Link
                 className="nav-link text-black"
                 style={{ fontWeight: "bold" }}
-                href="/Products"
+                href="/users/product"
               >
                 Products
               </Link>
