@@ -40,7 +40,7 @@ function Form() {
             discover our cozy world.
           </p>
           <div className="py-3 text-4xl text-center rounded-t-3xl border-t-2 border-x-2 border-solid border-white-500">
-            <Link href="/Products" className="text-black no-underline">
+            <Link href="/users/product" className="text-black no-underline">
               Our Produts
             </Link>
           </div>

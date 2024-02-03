@@ -7,7 +7,7 @@ function footer() {
         <div className=" grid grid-cols-2 space-y-4 sm:grid-cols-3 lg:grid-cols-4 text-xs sm:text-s lg:text-xl divide-x-2 divide-red-500">
           <div className="  flex items-center justify-center space-x-1 sm:space-x-4 ">
             {" "}
-            <div className="flex">We don t work on friday</div>
+            <div className="flex">We do not work on friday</div>
           </div>
           <div className="  flex items-center justify-center space-x-1 sm:space-x-4 ">
             {" "}
@@ -35,13 +35,22 @@ function footer() {
 
         <div className=" p-4 border-x-2 border-red-500 flex items-center justify-center space-x-10">
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/facebook.svg" /> </a>
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D">
+              {" "}
+              <img className="w-full h-full" src="/footer/facebook.svg" />{" "}
+            </a>
           </div>
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/linkedin.svg" /> </a>
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D">
+              {" "}
+              <img className="w-full h-full" src="/footer/linkedin.svg" />{" "}
+            </a>
           </div>
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/youtube.svg" /> </a>
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D">
+              {" "}
+              <img className="w-full h-full" src="/footer/youtube.svg" />{" "}
+            </a>
           </div>
         </div>
       </div>
