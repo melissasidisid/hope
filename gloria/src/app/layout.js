@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import UseClient from "./component/useClient";
-import { Head, Html, Main, NextScript } from "next/document";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,9 +13,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <link rel="icon" href="/logo.png" />
-      </Head>
+      </head>
       <body className={inter.className}>
         <UseClient />
         {children}
