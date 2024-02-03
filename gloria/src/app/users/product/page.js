@@ -109,7 +109,7 @@ export default function Products() {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer className=" bg-[#002545] bg-opacity-20 "/>
     </div>
   );
 }
