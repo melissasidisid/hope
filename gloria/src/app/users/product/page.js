@@ -6,7 +6,6 @@ import Product from "@/app/component/product";
 import Footer from "@/app/component/footer";
 import Nav from "@/app/component/Nav";
 import Link from "next/link";
-import Carousel from "@/app/component/Carousel";
 export default function Products() {
   const [imageIndex] = useState(0);
   const images = [

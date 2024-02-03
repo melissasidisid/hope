@@ -24,7 +24,7 @@ function Carousel() {
         <img
           className="w-full h-full sm:rounded-3xl"
           src={images[imageIndex]}
-          alt="no îcture"
+          alt="no pîcture"
         />
       </div>
     </>

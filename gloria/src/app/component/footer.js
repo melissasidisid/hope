@@ -7,22 +7,20 @@ function footer() {
         <div className=" grid grid-cols-2 space-y-4 sm:grid-cols-3 lg:grid-cols-4 text-xs sm:text-s lg:text-xl divide-x-2 divide-red-500">
           <div className="  flex items-center justify-center space-x-1 sm:space-x-4 ">
             {" "}
-            <div className="w-5 h-5 md:w-10 md:h-10 flex">
-              <img className="w-full h-full" src="/footer/mail.svg" />
-            </div>{" "}
-            <div className="flex">woods@gmail.com</div>
+            <div className="flex">We don t work on friday</div>
           </div>
           <div className="  flex items-center justify-center space-x-1 sm:space-x-4 ">
             {" "}
             <div className="w-5 h-5 md:w-10 md:h-10 flex">
               <img className="w-full h-full" src="/footer/location.svg" />
             </div>{" "}
-            <p className="flex"> Algiers, Algeria</p>
+            <p className="flex"> Jordan</p>
           </div>
           <div className="  flex items-center justify-center space-x-1 sm:space-x-4 ">
             {" "}
             <div className="w-5 h-5 md:w-10 md:h-10 flex">
               <img className="w-full h-full" src="/footer/phone.svg" />
+              <p>0500168855</p>
             </div>{" "}
             <p className="flex"></p>
           </div>
@@ -31,7 +29,7 @@ function footer() {
             <div className="w-5 h-5 md:w-10 md:h-10 flex">
               <img className="w-full h-full" src="/footer/calendar.svg" />
             </div>{" "}
-            <div className="flex">Mon - Sat : 8:00 - 20:00</div>
+            <div className="flex">thu - Sat : 8:00 - 20:00</div>
           </div>
         </div>
 
