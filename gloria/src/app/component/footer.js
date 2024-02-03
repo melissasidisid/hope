@@ -35,13 +35,13 @@ function footer() {
 
         <div className=" p-4 border-x-2 border-red-500 flex items-center justify-center space-x-10">
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <img className="w-full h-full" src="/footer/facebook.svg" />
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/facebook.svg" /> </a>
           </div>
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <img className="w-full h-full" src="/footer/linkedin.svg" />
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/linkedin.svg" /> </a>
           </div>
           <div className="w-6 h-6 md:w-10 md:h-10 flex ">
-            <img className="w-full h-full" src="/footer/youtube.svg" />
+            <a href="https://www.instagram.com/gloria.sadesign/?igsh=MWxrNGF3MWVvb3Iwaw%3D%3D"> <img className="w-full h-full" src="/footer/youtube.svg" /> </a>
           </div>
         </div>
       </div>
