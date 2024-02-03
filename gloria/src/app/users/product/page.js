@@ -16,10 +16,17 @@ export default function Products() {
     "/kitchen2.png",
     "/kitchen.png",
   ];
+    useEffect(() => {
+    const intervalId = setInterval(() => {
+      setImageIndex((prevIndex) => (prevIndex + 1) % images.length)
+    }, 3000)
+    // Clear the interval when the component unmounts
+    return () => clearInterval(intervalId)
+  })
   return (
     <div>
       <Nav />
-        <div className="mx-10 xl:mx-20 flex-col">
+        <div style={{ backgroundColor: "#BA8C63"}} className="mx-10 xl:mx-20 flex-col">
           <div className="py-3 text-4xl text-center rounded-b-3xl border-b-2 border-x-2 border-solid border-red-500">
             OUR PRODUCTS
           </div>
@@ -69,7 +76,7 @@ export default function Products() {
           <div className="py-3 text-4xl text-center rounded-t-3xl border-t-2 border-x-2 border-solid border-red-500"></div>
         </div>
      {/**About */}
-      <div className="flex flex-col md:flex-row mx-10 xl:mx-20 space-x-0 md:space-x-6 space-y-2 md:space-y-0 items-center justify-center">
+      <div style={{ backgroundColor: "#BA8C63"}} className="flex flex-col md:flex-row mx-10 xl:mx-20 space-x-0 md:space-x-6 space-y-2 md:space-y-0 items-center justify-center">
         <div className="flex p-1 sm:p-4 md:w-1/2 md:h-2/5">
           <img
             className="w-full h-full sm:rounded-3xl"
